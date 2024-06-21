@@ -1,2 +1,24 @@
-<p>home works!</p>
-<p-button label="Sign out" (onClick)="logOut()"></p-button>
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Bondan Prastyo</mat-card-title>
+      <mat-card-subtitle>Universitas</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="assets/images/foto_bondan_1.jpg" alt="Your Photo">
+    <mat-card-content>
+      <p>
+          Bondan Prastyo merupakan mahasiswa Universitas ... dengan NIM XXXXXXXXXX. 
+          Saat ini sedang menempuh pendidikan S1 di bidang Ilmu Komputer. Ia memiliki
+          keahlian dibidang jaringan dan komunikasi.
+  
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions>
+  </mat-card>
+  
+  <div class="button-container">
+      <p-button label="Sign out" (onClick)="logOut()"></p-button> <p-button label="Halaman Admin"></p-button>
+  </div>
