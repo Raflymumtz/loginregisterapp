@@ -16,6 +16,8 @@ export class RegisterComponent {
   registerForm = this.fb.group({
     fullName: ['', [Validators.required, Validators.pattern(/^[a-zA-Z]+(?: [a-zA-Z]+)*$/)]],
     email: ['', [Validators.required, Validators.email]],
+    tanggallahir: ['', [Validators.nullValidator]],
+    noHp: ['', [Validators.nullValidator]],
     password: ['', Validators.required],
     confirmPassword: ['', Validators.required]
   }, {
@@ -35,6 +37,14 @@ export class RegisterComponent {
 
   get email() {
     return this.registerForm.controls['email'];
+  }
+
+  get tanggallahir() {
+    return this.registerForm.controls['tanggallahir'];
+  }
+
+  get noHp() {
+    return this.registerForm.controls['noHp'];
   }
 
   get password() {

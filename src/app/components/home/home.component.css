@@ -1,0 +1,38 @@
+.example-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.example-header-image {
+  background-image: url('/assets/images/foto_bondan_1.jpg');
+  background-size: cover;
+}
+
+.mat-card {
+  background-color: white; /* Set the background color of the card to white */
+  color: black; /* Set the text color to black */
+}
+
+.mat-card-header {
+  background-color: white; /* Set the background color of the card header to white */
+}
+
+.mat-card-content {
+  background-color: white; /* Set the background color of the card content to white */
+  color: black; /* Set the text color to black */
+}
+
+.mat-card-actions {
+  background-color: white; /* Set the background color of the card actions to white */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed to move the buttons down */
+}
+
+p-button {
+  margin: 0 10px; /* Adjust the left and right margin as needed */
+}
